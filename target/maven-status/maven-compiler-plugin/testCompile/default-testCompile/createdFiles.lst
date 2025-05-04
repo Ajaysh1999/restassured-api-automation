@@ -1,0 +1,4 @@
+com\ajay\api\base\BaseTest.class
+com\ajay\api\endpoints\UserEndpoints.class
+com\ajay\api\utils\ExtentManager.class
+com\ajay\api\tests\UserTests.class

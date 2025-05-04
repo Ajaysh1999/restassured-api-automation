@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.ajay.api.tests.UserTests" time="3.991" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\storage\restassured-api-automation\target\test-classes;C:\storage\restassured-api-automation\target\classes;C:\Users\Iamaj\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Iamaj\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Iamaj\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Iamaj\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Iamaj\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Iamaj\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Iamaj\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Iamaj\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Iamaj\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Iamaj\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Iamaj\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Iamaj\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Iamaj\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Iamaj\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Iamaj\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Iamaj\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Iamaj\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Iamaj\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Iamaj\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Iamaj\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Iamaj\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Iamaj\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Iamaj\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Iamaj\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Iamaj\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Iamaj\.m2\repository\org\json\json\20240303\json-20240303.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Iamaj\AppData\Local\Temp\surefire8458023786161187632\surefirebooter-20250504115725046_3.jar C:\Users\Iamaj\AppData\Local\Temp\surefire8458023786161187632 2025-05-04T11-57-24_812-jvmRun1 surefire-20250504115725046_1tmp surefire_0-20250504115725046_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\storage\restassured-api-automation\target\test-classes;C:\storage\restassured-api-automation\target\classes;C:\Users\Iamaj\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Iamaj\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Iamaj\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Iamaj\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Iamaj\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Iamaj\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Iamaj\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Iamaj\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Iamaj\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Iamaj\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Iamaj\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Iamaj\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Iamaj\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Iamaj\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Iamaj\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Iamaj\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Iamaj\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Iamaj\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Iamaj\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Iamaj\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Iamaj\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Iamaj\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Iamaj\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Iamaj\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Iamaj\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Iamaj\.m2\repository\org\json\json\20240303\json-20240303.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Iamaj"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\storage\restassured-api-automation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Iamaj\AppData\Local\Temp\surefire8458023786161187632\surefirebooter-20250504115725046_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.26+7-LTS-187"/>
+    <property name="user.name" value="Iamaj"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Iamaj\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Iamaj\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.26"/>
+    <property name="user.dir" value="C:\storage\restassured-api-automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Iamaj\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Iamaj\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\Iamaj\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\Iamaj\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin;C:\Program Files\Java\jdk-10.0.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\nodejs;C:\apache-maven-3.9.x\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\Iamaj\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\Iamaj\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin;C:\Program Files\Java\jdk-10.0.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Vagrant\bin;C:\Program Files\nodejs;C:\apache-maven-3.9.x\bin;C:\Users\Iamaj\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\Iamaj\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9;C:\Users\Iamaj\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\Iamaj\AppData\Local\Programs\Python\Python38;C;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.26+7-LTS-187"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testGetUsers" classname="com.ajay.api.tests.UserTests" time="1.235">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 04 May 2025 06:27:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93a5eeb1ff593f5b-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1746333663&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=sNC67H5TPhMawB%2Fa0DriHnz7R3DN8uA%2FMTorTZtu6Xo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1746333663&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=sNC67H5TPhMawB%2Fa0DriHnz7R3DN8uA%2FMTorTZtu6Xo%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Ratelimit-Policy: 100;w=60
+Ratelimit-Limit: 100
+Ratelimit-Remaining: 98
+Ratelimit-Reset: 60
+Etag: W/"440-ZjsmMKR8P3usr2uJZbOCGCxC3Uw"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+Cf-Cache-Status: HIT
+Age: 6384
+Vary: Accept-Encoding
+server-timing: cfL4;desc="?proto=TCP&rtt=34374&min_rtt=34254&rtt_var=13086&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3108&recv_bytes=671&delivery_rate=124368&cwnd=252&unsent_bytes=0&cid=beacad79be6b1961&ts=141&x=0"
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddUser" classname="com.ajay.api.tests.UserTests" time="0.532">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=reqres-free-v1
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Ajay",
+    "job": "QA Engineer"
+}
+HTTP/1.1 201 Created
+Date: Sun, 04 May 2025 06:27:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 85
+Connection: keep-alive
+Server: cloudflare
+Cf-Ray: 93a5eeb5cb1a3e28-BOM
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1746340048&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=3tHt6bquSfSKsC1XJPk4s%2F67QnQs%2F4%2FSaYXJVTXIOWw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1746340048&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=3tHt6bquSfSKsC1XJPk4s%2F67QnQs%2F4%2FSaYXJVTXIOWw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Ratelimit-Policy: 100;w=60
+Ratelimit-Limit: 100
+Ratelimit-Remaining: 98
+Ratelimit-Reset: 60
+Etag: W/"55-FzKWYzcdGazD8SM3OgqBfNkhc3I"
+Via: 1.1 vegur
+Cf-Cache-Status: DYNAMIC
+server-timing: cfL4;desc="?proto=TCP&rtt=35449&min_rtt=33927&rtt_var=12434&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3109&recv_bytes=784&delivery_rate=99626&cwnd=252&unsent_bytes=0&cid=eb4c11b1bb65d1ec&ts=412&x=0"
+
+{
+    "name": "Ajay",
+    "job": "QA Engineer",
+    "id": "562",
+    "createdAt": "2025-05-04T06:27:28.572Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser" classname="com.ajay.api.tests.UserTests" time="0.41">
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=reqres-free-v1
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Ajay",
+    "job": "SDET"
+}
+HTTP/1.1 200 OK
+Date: Sun, 04 May 2025 06:27:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cf-Ray: 93a5eeb8fefd4421-BOM
+Server: cloudflare
+Content-Encoding: gzip
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1746340048&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=3tHt6bquSfSKsC1XJPk4s%2F67QnQs%2F4%2FSaYXJVTXIOWw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1746340048&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=3tHt6bquSfSKsC1XJPk4s%2F67QnQs%2F4%2FSaYXJVTXIOWw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Ratelimit-Policy: 100;w=60
+Ratelimit-Limit: 100
+Ratelimit-Remaining: 96
+Ratelimit-Reset: 60
+Etag: W/"43-8lSsI3igr0izgyHIOasjXeHk880"
+Via: 1.1 vegur
+Cf-Cache-Status: DYNAMIC
+Vary: Accept-Encoding
+server-timing: cfL4;desc="?proto=TCP&rtt=35074&min_rtt=34586&rtt_var=13946&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3109&recv_bytes=778&delivery_rate=113792&cwnd=252&unsent_bytes=0&cid=8c477c40568e441f&ts=327&x=0"
+
+{
+    "name": "Ajay",
+    "job": "SDET",
+    "updatedAt": "2025-05-04T06:27:29.004Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser" classname="com.ajay.api.tests.UserTests" time="0.408">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=reqres-free-v1
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Sun, 04 May 2025 06:27:29 GMT
+Connection: keep-alive
+Server: cloudflare
+Cf-Ray: 93a5eebb9ab93f5b-BOM
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1746340049&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=vQxSZovXLBkDboaT4RRwSllahoX39QhoiPVC2jWcyzw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1746340049&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=vQxSZovXLBkDboaT4RRwSllahoX39QhoiPVC2jWcyzw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Ratelimit-Policy: 100;w=60
+Ratelimit-Limit: 100
+Ratelimit-Remaining: 94
+Ratelimit-Reset: 60
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+Cf-Cache-Status: DYNAMIC
+server-timing: cfL4;desc="?proto=TCP&rtt=37841&min_rtt=37509&rtt_var=14731&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3109&recv_bytes=696&delivery_rate=109039&cwnd=252&unsent_bytes=0&cid=b4e0e8db55ae06b7&ts=317&x=0"
+]]></system-out>
+  </testcase>
+</testsuite>
